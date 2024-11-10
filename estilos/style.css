@@ -5,3 +5,109 @@ Paletas de cores:
 verde : #49a09d
 lilás : #5f2c82
 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #5f2c82;
+}
+
+
+
+section#login {
+    border-radius: 30px;
+    margin: auto;
+    width: 250px;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+#img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    overflow: hidden;
+}
+
+img {
+    max-height: 200px;
+    
+}
+
+div#formulario {
+    text-align: justify;
+    border-radius: 2px solid black;
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 5px;
+}
+
+p {
+    font-size: .8em;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.iemail{
+    background-color: #5f2c82;
+    border-radius: 2px solid black;
+    width: 210px;
+    padding: 10px;
+    margin: auto;
+}
+
+.isenha {
+    background-color: #5f2c82;
+    width: 210px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.entrar {
+    background-color: #49a09d;
+    width: 230px;
+    height: 40px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#entrar {
+    background-color: #49a09d;
+    width: 230px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    border: #ffffff;
+}
+
+.esqueci {
+    margin: auto;
+    width: 230px;
+}
+
+
+
+#iemail {
+    background-color: #49a09d;
+    height: 1.5em;
+    
+}
+
+#isenha {
+    background-color: #49a09d;
+}
+
+#esqueci {
+    margin: auto;
+    width: 230px;
+    height: 40px;
+}
