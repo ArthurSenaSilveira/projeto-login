@@ -164,3 +164,20 @@ input::placeholder {
     padding: 10px;
     border-radius: 5px;
 }
+
+.entrar:hover {
+    background-color: white;
+}
+
+#entrar:hover {
+    background-color: white;
+   color: black;
+}
+
+.esqueci:hover {
+    background-color: white;
+}
+
+#esqueci:hover {
+    background-color: #49a09d;
+}
