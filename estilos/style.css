@@ -1,33 +1,51 @@
 @charset "UTF-8";
 
+
 /*
 Paletas de cores:
 verde : #49a09d
 lilás : #5f2c82
 */
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+* {
     padding: 0px;
     margin: 0px;
-    background-color: #5f2c82;
+    box-sizing: border-box;
 }
 
+body {
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
 
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 
 section#login {
-    border-radius: 30px;
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    background-color: white;
     width: 250px;
-    height: 500px;
-    background-color: #ffffff;
-    margin-top: 50px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease
 }
 
 #img {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    overflow: hidden;
+    display: block;
+    background: #5f2c82 url(../imagens/favela.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
 }
 
 img {
@@ -36,38 +54,67 @@ img {
 }
 
 div#formulario {
-    text-align: justify;
-    border-radius: 2px solid black;
+    display: block;
+    padding: 10px;
 }
 
 h1 {
-    font-size: 1.5em;
     text-align: center;
-    margin: 5px;
 }
 
 p {
     font-size: .8em;
-    padding: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0px;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: #444;
 }
 
 .iemail{
+    display: flex;
+    justify-content: flex-end;
     background-color: #5f2c82;
-    border-radius: 2px solid black;
-    width: 210px;
-    padding: 10px;
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
     margin: auto;
+    margin-bottom: 5px;
+    color: black;
+}
+
+#iemail {
+    background-color: #94CFCD;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 5px;
+    color: black;
+    margin: 4px;
+}
+
+#iemail:hover {
+    background-color: white;
 }
 
 .isenha {
+    display: flex;
+    justify-content: flex-end;
     background-color: #5f2c82;
-    width: 210px;
-    padding: 10px;
+    width: 230px;
+    height: 40px;
     margin: auto;
-    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#isenha {
+    background-color: #94CFCD;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#isenha:hover {
+    background-color: white;
 }
 
 .entrar {
@@ -77,7 +124,12 @@ p {
     margin: auto;
     margin-top: 0px;
     padding: 0px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: -10px;
 }
+
+
 
 #entrar {
     background-color: #49a09d;
@@ -87,27 +139,28 @@ p {
     padding: 0px;
     color: white;
     border: #ffffff;
+    border-radius: 5px;
+    
 }
 
 .esqueci {
     margin: auto;
     width: 230px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-
-#iemail {
-    background-color: #49a09d;
-    height: 1.5em;
-    
-}
-
-#isenha {
-    background-color: #49a09d;
-}
 
 #esqueci {
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 230px;
-    height: 40px;
+    position: relative;
+    margin-top: -15px;
+    padding: 10px;
+    border-radius: 5px;
 }

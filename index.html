@@ -4,23 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="stylesheet" href="estilos/tablet.css">
+
     <title>Login</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=person" />
 </head>
 <body>
     <main>
         <section id="login">
             <div id="img">
-                <img src="imagens/favela.jpg" alt="">
+                
             </div>
             <div formulario>
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer configurações em seu ambiente.</p>
-                <form action="login php" method="get">
+                <form action="login php" method="Form" autocomplete="on">
 
                     
-                    <div class="iemail"><input type="email" name="email" id="iemail"></div>
+                    <div class="iemail">
+                        <i class="material-symbols-outlined">
+                            person
+                        </i>
+                       <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+                    </div>
 
-                    <div class="isenha"><input type="password" name="senha" id="isenha"></div>
+                    <div class="isenha">
+                        <i class="material-icons">vpn_key</i>    
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" >
+                        
+                    </div>
 
                     <br>
 
@@ -28,10 +44,16 @@
 
                     <br>
 
-                    <div class="esqueci"><input id="esqueci" type="submit" value="Esqueci a senha"></div>
+                    <div class="esqueci"><input id="esqueci" type="submit" value="Esqueci a senha" >
+                    
+                    </div>
                 </form>
             </div>
         </section>
     </main>
+    <script>
+        document.getElementById("password").value = "Sua senha";
+    </script>
+    
 </body>
 </html>

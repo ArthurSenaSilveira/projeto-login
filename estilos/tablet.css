@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+
+/*
+Telas pequenas:  Até 600px
+Cell: 600px Até 768px
+Tablet: 768px Até 992px
+PC: 992px Até 1200px
+Telas grandes: Acima de 1200px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    
+    section#login {
+        width: 80vw;
+        height: 280px;
+        
+    }
+
+    #img {
+        float: left;
+        width: 30%;
+        height: 100vh;
+    }
+
+    img {
+        float: left;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    p {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    form {
+        float: right;
+        width: 70%;
+    }
+
+    #iemail {
+       width: 31em;
+    }
+
+    .iemail {
+        width: 28em;
+    }
+
+    #isenha {
+        width: 31em;
+    }
+
+    .isenha {
+        width: 28em;
+    }
+
+    .entrar {
+        width: 28em;
+    }
+
+    #entrar {
+        width: 33em;
+    }
+
+    #esqueci {
+        width: 34em;
+    }
+
+    .esqueci {
+        width: 28em;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    section#login {
+        width: 85vw;
+        height: 380px;
+    }
+
+    div#img {
+        float: right;
+        width: 50%;
+        height: 100vh;
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+        height: 100vh;
+    }
+
+    h1 {
+       text-align: center;
+       font-size: 2em;
+       margin: 20px; 
+    }
+
+    p {
+        font-size: 1.1em;
+        padding: 15px;
+    }
+
+    form {
+        float: right;
+        width: 50%;
+    }
+
+    #iemail {
+        width: 40em;
+    }
+
+    .iemail {
+        width: 26em;
+    }
+
+    #isenha {
+        width: 40em;
+    }
+
+    .isenha {
+        width: 26em;
+    }
+
+    #entrar {
+        width: 30em;
+    }
+
+    .entrar {
+        width: 26em;
+    }
+
+    #esqueci {
+        width: 40em;
+    }
+
+    .esqueci {
+        width: 26em;
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    section#login {
+        width: 75vw;
+        height: 350px;
+    }
+
+    div#img {
+        float: right;
+        width: 50%;
+        height: 100vh;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2em;
+        margin: 20px; 
+     }
+ 
+     p {
+         font-size: 1.1em;
+         padding: 15px;
+     }
+ 
+     form {
+         float: right;
+         width: 50%;
+     }
+ 
+     #iemail {
+         width: 40em;
+     }
+ 
+     .iemail {
+         width: 27em;
+     }
+ 
+     #isenha {
+         width: 40em;
+     }
+ 
+     .isenha {
+         width: 27em;
+     }
+ 
+     #entrar {
+         width: 30em;
+     }
+ 
+     .entrar {
+         width: 27em;
+     }
+ 
+     #esqueci {
+         width: 40em;
+     }
+ 
+     .esqueci {
+         width: 27em;
+     }
+}
