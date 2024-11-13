@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*Nome ao invés de tablet deveria ser media quary*/
 
 /*
 Telas pequenas:  Até 600px
@@ -11,6 +12,9 @@ Telas grandes: Acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px){
 
+    body {
+        background-image: linear-gradient(to top, #49a19d, #5f2c82);
+    }
     
     section#login {
         width: 80vw;
@@ -84,6 +88,11 @@ Telas grandes: Acima de 1200px
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a19d, #5f2c82);
+    }
+
     section#login {
         width: 85vw;
         height: 380px;
@@ -152,6 +161,11 @@ Telas grandes: Acima de 1200px
 }
 
 @media screen and (min-width: 1200px){
+
+    body {
+        background-image: linear-gradient(to top, #49a19d, #5f2c82);
+    }
+    
     section#login {
         width: 75vw;
         height: 350px;
