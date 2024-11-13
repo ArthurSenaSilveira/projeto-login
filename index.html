@@ -25,28 +25,33 @@
                 <form action="login php" method="Form" autocomplete="on">
 
                     
-                    <div class="iemail">
-                        <i class="material-symbols-outlined">
+                    <div class="campo">
+                        <i class="material-icons">
                             person
                         </i>
                        <input type="email" name="email" id="iemail" placeholder="Seu e-mail">
+                       <label for="iemail">login</label>
                     </div>
 
-                    <div class="isenha">
+                    <div class="campo">
                         <i class="material-icons">vpn_key</i>    
-                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" >
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" minlength="8" maxlength="20">
+                        <label for="isenha">senha</label>
                         
                     </div>
 
                     <br>
 
-                    <div class="entrar"><input id="entrar" type="submit" value="Entrar"></div>
+                    <input id="entrar" type="submit" value="Entrar">
 
                     <br>
-
-                    <div class="esqueci"><input id="esqueci" type="submit" value="Esqueci a senha" >
                     
                     </div>
+
+                    <a href="esqueci.html" class="botao">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
+
                 </form>
             </div>
         </section>
