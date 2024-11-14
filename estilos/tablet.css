@@ -18,7 +18,7 @@ Telas grandes: Acima de 1200px
     
     section#login {
         width: 80vw;
-        height: 300px;
+        height: 290px;
         
     }
 
@@ -45,15 +45,20 @@ Telas grandes: Acima de 1200px
     }
     
     p {
+        float: left;
+        width: 65%;
         font-size: 1em;
-        margin: 10px;
+        margin: 15px;
     }
 
     form {
         float: right;
-        width: 70%;
+        width: 68.5%;
     }
 
+    .campo {
+        margin-right: 10px;
+    }
    
 }
 
@@ -93,39 +98,7 @@ Telas grandes: Acima de 1200px
 
     form {
         float: right;
-        width: 50%;
-    }
-
-    #iemail {
-        width: 40em;
-    }
-
-    .campo {
-        width: 26em;
-    }
-
-    #isenha {
-        width: 40em;
-    }
-
-    .campo {
-        width: 26em;
-    }
-
-    #entrar {
-        width: 30em;
-    }
-
-    .entrar {
-        width: 26em;
-    }
-
-    #esqueci {
-        width: 40em;
-    }
-
-    .botao {
-        width: 26em;
+        width: 48.5%;
     }
 
 }
@@ -160,38 +133,7 @@ Telas grandes: Acima de 1200px
  
      form {
          float: right;
-         width: 50%;
+         width: 48.5%;
      }
  
-     #iemail {
-         width: 40em;
-     }
- 
-     .iemail {
-         width: 27em;
-     }
- 
-     #isenha {
-         width: 40em;
-     }
- 
-     .isenha {
-         width: 27em;
-     }
- 
-     #entrar {
-         width: 30em;
-     }
- 
-     .entrar {
-         width: 27em;
-     }
- 
-     #esqueci {
-         width: 40em;
-     }
- 
-     .esqueci {
-         width: 27em;
-     }
 }
